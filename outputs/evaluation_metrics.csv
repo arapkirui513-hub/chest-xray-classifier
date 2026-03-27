@@ -1,0 +1,2 @@
+Threshold,AUC-ROC,Sensitivity,Specificity,PPV,NPV,F1,Accuracy,TP,FP,TN,FN
+0.01,0.8887,0.5103,0.9615,0.9567,0.5409,0.6656,0.6795,199,9,225,191
