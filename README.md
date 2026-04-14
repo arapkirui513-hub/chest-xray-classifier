@@ -1,10 +1,16 @@
-# Chest X-Ray Pneumonia Classifier
+# 🫁 Chest X-Ray Pneumonia Classifier
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue) ![PyTorch](https://img.shields.io/badge/PyTorch-2.x-orange) ![MONAI](https://img.shields.io/badge/MONAI-1.x-green) ![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
 > **⚠️ NOT FOR CLINICAL USE.** This is a learning project built as part of a self-directed AI for Biomedical Engineering study programme. It has not been validated for clinical deployment and must not be used for patient diagnosis or triage.
 
 A binary chest X-ray classifier that distinguishes **Normal** from **Pneumonia** using a DenseNet-121 backbone trained with two-phase transfer learning. Built with PyTorch and MONAI on the Kaggle Chest X-Ray (Pneumonia) dataset. Includes ROC curve evaluation, Grad-CAM visualisation, and a full project report.
+
+## 🔍 Grad-CAM Visualisation
+
+![Grad-CAM Analysis](report/figures/gradcam_visualisation.png)
+
+> Model attention on lung consolidation patterns for pneumonia detection. Correctly classified cases show warm activation (red/yellow) in lower lung zones. False negatives show attention outside lung fields—revealing model limitations.
 
 ---
 
